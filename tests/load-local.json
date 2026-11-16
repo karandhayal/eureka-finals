@@ -1,0 +1,239 @@
+{
+  "label": "local",
+  "minutes": 4,
+  "virtual_users": 217,
+  "requests": 15360,
+  "rps": 64,
+  "server_errors": 0,
+  "error_rate_pct": 0,
+  "latency_ms": {
+    "p50": 2.1,
+    "p95": 10.6,
+    "p99": 215.4,
+    "max": 400.2
+  },
+  "by_function": {
+    "poll": {
+      "n": 5133,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 1.6,
+      "p95": 3,
+      "p99": 25.8
+    },
+    "judge_me": {
+      "n": 3717,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 2,
+      "p95": 3.8,
+      "p99": 21.6
+    },
+    "startup_me": {
+      "n": 2889,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 2.1,
+      "p95": 150.6,
+      "p99": 240.5
+    },
+    "room_state": {
+      "n": 2322,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 2.8,
+      "p95": 4.9,
+      "p99": 23
+    },
+    "admin_state": {
+      "n": 433,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 13.3,
+      "p95": 19.7,
+      "p99": 27.8
+    },
+    "score_submit": {
+      "n": 198,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 3,
+      "p95": 6.4,
+      "p99": 18.1
+    },
+    "checkin": {
+      "n": 190,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 3.4,
+      "p95": 8,
+      "p99": 138.7
+    },
+    "startup_search": {
+      "n": 170,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 2.5,
+      "p95": 5.9,
+      "p99": 165.5
+    },
+    "pitch_advance": {
+      "n": 122,
+      "refused_by_rules": 4,
+      "errors": 0,
+      "p50": 3.4,
+      "p95": 6.5,
+      "p99": 9
+    },
+    "pitch_start": {
+      "n": 79,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 4.4,
+      "p95": 8.5,
+      "p99": 11.2
+    },
+    "queue_move": {
+      "n": 45,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 3.7,
+      "p95": 6.1,
+      "p99": 8.7
+    },
+    "startup_set_hold": {
+      "n": 26,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 3.8,
+      "p95": 5.2,
+      "p99": 6.9
+    },
+    "room_set_status": {
+      "n": 20,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 4.5,
+      "p95": 9.9,
+      "p99": 9.9
+    },
+    "pitch_cancel": {
+      "n": 11,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 4,
+      "p95": 6.8,
+      "p99": 6.8
+    },
+    "startup_skip": {
+      "n": 5,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 4.9,
+      "p95": 6.1,
+      "p99": 6.1
+    },
+    "staff_login": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "event_reset": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "settings_save": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "startups_import": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "criteria_save": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "room_save": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "export_data": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "judge_save": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "judge_update": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "judges_list": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    },
+    "criteria_list": {
+      "n": 0,
+      "refused_by_rules": 0,
+      "errors": 0,
+      "p50": 0,
+      "p95": 0,
+      "p99": 0
+    }
+  },
+  "change_to_screen_ms": {
+    "p50": 1014,
+    "p95": 2677,
+    "note": "admin change committed -> each room screen has refetched; screens poll every 1.5-3 s here (no push in this test)"
+  },
+  "event_outcome": {
+    "done": 54,
+    "on_deck": 20,
+    "waiting": 86,
+    "pitching": 10
+  },
+  "invariant_violations_during_run": [],
+  "invariant_violations_at_end": [],
+  "error_samples": {}
+}
