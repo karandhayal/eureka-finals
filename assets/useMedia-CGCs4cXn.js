@@ -1,0 +1,1 @@
+import{r as s}from"./index-BUVNiJ71.js";function c(e){const[a,o]=s.useState(()=>typeof window!="undefined"&&window.matchMedia(e).matches);return s.useEffect(()=>{const t=window.matchMedia(e),n=()=>o(t.matches);return t.addEventListener("change",n),n(),()=>t.removeEventListener("change",n)},[e]),a}const d=()=>c("(max-width: 767px)");export{d as u};
